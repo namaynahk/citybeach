@@ -5,7 +5,9 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
 gem 'social_stream', :git => 'git://github.com/ging/social_stream.git'
 gem 'social_stream-linkser'
 gem "social_stream-events"
