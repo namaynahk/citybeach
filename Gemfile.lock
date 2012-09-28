@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ging/social_stream.git
-  revision: 4bf3f0faeb3089e26989f08b14b01b0e9e073751
+  revision: 3528415eb1fa54d989d31884c39f6bb559c5d9ae
   specs:
     social_stream (0.28.4)
       social_stream-base (~> 0.22.4)
@@ -29,6 +29,7 @@ GIT
       omniauth-linkedin (~> 0.0.6)
       rails (>= 3.1.0)
       rails_autolink (~> 1.0.4)
+      rails_engine_decorators
       resque (~> 1.20.0)
       sass-rails (>= 3.1.0)
       social_cheesecake (~> 0.5.0)
@@ -101,7 +102,7 @@ GEM
     carrierwave (0.6.2)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
-    cocaine (0.3.1)
+    cocaine (0.3.2)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -242,6 +243,8 @@ GEM
       recurrence (~> 1.2.0)
     rails_autolink (1.0.9)
       rails (~> 3.1)
+    rails_engine_decorators (0.0.1)
+      railties (~> 3.2.8)
     railties (3.2.8)
       actionpack (= 3.2.8)
       activesupport (= 3.2.8)
